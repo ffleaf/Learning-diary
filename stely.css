@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    position: fixed;
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+nav .hezi{
+    display: flex;
+    margin: auto;
+    padding: 0 10px;
+    align-items: center;
+    max-width: 2000px;
+    justify-content: space-between;
+}
+
+
+.hezi .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+.hezi ul{
+    
+    display: inline-flex;
+} 
+    
+
+
+.hezi ul li{
+    list-style: none;
+    margin: 10px;
+    
+}
+
+.hezi ul li a{
+    text-decoration: none;
+    font-size: 100%;
+    padding: 5px 10px;
+    transition: all 1s ease;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.hezi ul li a:hover{
+    color: #000;
+    background: white;
+}
+
+.img{
+    background: url(./1.webp) no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* .img::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4)
+} */
+
+.hezi1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+
+.hezi1 .name1{
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+
+.hezi1 .name2{
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}
+
+.hezi1 .point{
+    margin-top: 20px;
+}
+
+.hezi1 .point button{
+    font-size: 20px;
+    font-weight: 400;
+    transition: all 1s ease;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    background: none;
+    border: 2px solid white;
+}
+
+.hezi1 .point button:hover{
+    background: white;
+    color: black;
+}
